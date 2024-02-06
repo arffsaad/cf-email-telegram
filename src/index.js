@@ -39,7 +39,7 @@ export default {
 			body: params.toString()
 		}).then(async response => {
 			const msgId = response.message_id;
-			await fetch("https://api.telegram.org/bot6933851236:AAHuupvgxVL-z0ccwUN-LDuyhHjT0cLTZAo/sendMessage", {
+			await fetch("https://api.telegram.org/bot" + botToken + "/sendMessage", {
 				method: "POST",
 				headers: {
 					'Content-Type': 'application/json', // Set the content type to JSON
