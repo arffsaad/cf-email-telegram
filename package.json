@@ -1,0 +1,17 @@
+{
+  "name": "email-catch-all-to-telegram",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "html-to-text": "^9.0.5",
+    "postal-mime": "^2.0.2"
+  }
+}
